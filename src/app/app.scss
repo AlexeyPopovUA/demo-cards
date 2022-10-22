@@ -1,0 +1,9 @@
+// Import the framework
+@import '../../node_modules/vanilla-framework/index';
+
+// Include all of Vanilla Framework
+@include vanilla;
+
+.main {
+  padding-top: 2em;
+}

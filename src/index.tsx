@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
 
-import App from "./App";
+import App from "./app/App";
 
 const container = document.querySelector(".main");
 const root = createRoot(container);
