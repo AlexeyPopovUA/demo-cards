@@ -1,9 +1,8 @@
 // Import the framework
-@import '../../node_modules/vanilla-framework/index';
+@use 'node_modules/vanilla-framework/index' as framework with (
+$color-link: #2aa7da,
+$color-link-visited: #2aa7da
+);
 
 // Include all of Vanilla Framework
-@include vanilla;
-
-.main {
-  padding-top: 2em;
-}
+@include framework.vanilla;

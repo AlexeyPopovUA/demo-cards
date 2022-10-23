@@ -1,0 +1,36 @@
+.demo-p-card {
+  display: flex !important;
+  flex-direction: column;
+  align-content: stretch;
+
+  border-top-color: #a87ca0;
+  border-top-width: 3px;
+  border-top-style: solid;
+
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3) !important;
+
+  &__header {
+    flex-grow: 1;
+  }
+
+  &__content {
+    flex-grow: 8;
+  }
+
+  &__footer {
+    flex-grow: 1;
+  }
+
+  &__type {
+    font-weight: 600 !important;
+  }
+
+  &__heading {
+    line-height: 2rem;
+
+    .p-button__link {
+      font-weight: 400;
+      font-size: 1.5rem;
+    }
+  }
+}
